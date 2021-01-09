@@ -4,14 +4,16 @@ using Constantin_Mihai_lab8.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Constantin_Mihai_lab8.Migrations
 {
     [DbContext(typeof(Constantin_Mihai_lab8Context))]
-    partial class Constantin_Mihai_lab8ContextModelSnapshot : ModelSnapshot
+    [Migration("20210109171351_BookCategory")]
+    partial class BookCategory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

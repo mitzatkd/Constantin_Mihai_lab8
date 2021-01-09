@@ -15,5 +15,9 @@ namespace Constantin_Mihai_lab8.Data
         }
 
         public DbSet<Constantin_Mihai_lab8.Models.Book> Book { get; set; }
+
+        public DbSet<Constantin_Mihai_lab8.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Constantin_Mihai_lab8.Models.Category> Category { get; set; }
     }
 }
